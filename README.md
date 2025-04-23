@@ -1,102 +1,115 @@
-R Challenge Series — Even Richardson
+# R Challenge Series — Even Richardson
 
-This repository contains my challenge submissions from my R programming track. Each challenge reflects not just learning R, but tying coding back to personal meaning, growth, and real-world thinking.
+This repository contains my challenge submissions from my R programming track. Each challenge reflects not just learning R, but tying code back to personal meaning, growth, and real-world thinking.
 
-⸻
+---
 
-Challenges in This Repository
+## Challenges in This Repository
 
-Challenge 6: Twin Growth Explorer
+### Challenge 6: Twin Growth Explorer
 
-This is my solution to Challenge 6 from my R training. The challenge involved working with the built-in iris dataset in R. Instead of just using it as-is, I gave it a personal twist, remixing it to reflect what’s going on in my real life.
+This challenge involved working with the built-in `iris` dataset. I gave it a personal twist by symbolically mapping it to reflect the early developmental journey of my newborn twin daughters.
 
-What This Project Does
-	•	Loads the iris dataset
-	•	Renames a couple columns to represent symbolic twin growth measurements
-	•	Treats the Species column as a symbolic stand-in for twin identity
-	•	Prints summary stats grouped by each “twin”
-	•	Displays a scatter plot of head circumference vs. head width
-	•	Includes a PNG version of the plot (twin_growth_plot.png) and a comparison overlay (twin_growth_vs_realworld.png)
+#### What This Project Does
+- Loads the `iris` dataset
+- Renames measurements to represent head circumference and head width
+- Uses `Species` as a symbolic stand-in for "twin identity"
+- Prints summary stats grouped by each "twin"
+- Generates a scatter plot (`challenge6_growth_plot.png`)
+- Adds a reference overlay from real-world pediatric growth charts (`challenge6_vs_realworld_plot.png`)
 
-Why I Made It Symbolic
+#### Why I Made It Symbolic
+Having just become a father of twins, I found meaning in treating this data as a symbolic growth tracker. The variable names aren’t real measurements, but they helped me emotionally connect with the learning process.
 
-I just had twin daughters, and this challenge was assigned right around that time. Instead of just doing it the default way, I wanted to make it feel more personal. So I renamed some of the variables to represent things like head circumference and head width. It’s not real data about them, but it helped me stay engaged and tie the learning to something that matters to me.
+#### How to Run It
+1. Open `challenge6_twin_growth.R` in RStudio
+2. Click **Source**
+3. Check the Console for summaries
+4. View the plots in the **Plots** tab
 
-How to Run the Code
-	1.	Open RStudio
-	2.	Make sure you’re inside the r-challenges project folder
-	3.	Open the file challenge6_twin_growth.R
-	4.	Click the Source button
-	5.	Check the Console for summaries
-	6.	View the plot in the Plots tab
+---
 
-⸻
+### Challenge 7: Predicting MPG from Horsepower
 
-Challenge 7: Predicting MPG from Horsepower
+Using the `mtcars` dataset, this script builds a simple linear regression model to predict miles per gallon (mpg) based on horsepower (hp).
 
-This is my solution to Challenge 7 from the R track. The goal was to train a simple linear regression model using the built-in mtcars dataset to predict miles per gallon (mpg) based on horsepower (hp).
+#### What It Does
+- Loads `mtcars`
+- Symbolizes `hp` as "engine force" and `mpg` as "journey endurance"
+- Trains a linear regression model
+- Predicts mpg for a 150-hp vehicle
+- Prints the model and symbolic output
 
-What It Does
-	•	Loads the mtcars dataset
-	•	Symbolically treats hp as the engine’s force of will and mpg as its journey endurance
-	•	Trains a linear regression model (lm) to predict mpg from hp
-	•	Makes a prediction for a car with 150 horsepower
-	•	Prints the model summary and the prediction
+#### Why I Made It Symbolic
+To me, this challenge reflected life’s journey. I connected `hp` to the effort we give, and `mpg` to how far that effort can carry us.
 
-Why I Made It Symbolic
+#### How to Run It
+1. Open `challenge7_predict_mpg.R` in RStudio
+2. Click **Source**
+3. Read the symbolic output in the Console
 
-Since the twins came, I’ve been connecting more with the idea of inner strength. I decided to treat hp as symbolic for how much effort a person (or engine) puts in, and mpg as how far that effort can carry them.
+---
 
-This helped me learn regression in a way that felt more meaningful and made the concepts easier to remember.
+### Challenge 8: k-NN Species Prediction
 
-How to Run It
-	1.	Open challenge7_predict_mpg.R in RStudio
-	2.	Click Source to run the whole script
-	3.	Check the Console for the model details and prediction for a 150-hp car
+This project uses the `iris` dataset to train a **k-nearest neighbors classifier (k = 3)** to predict species from measurements.
 
-⸻
+#### What It Does
+- Shuffles and splits the dataset (70/30)
+- Applies `class::knn()` to classify species
+- Calculates model accuracy
+- Prints symbolic output in theme
 
-Challenge 8: k-NN Species Prediction
+#### Why I Made It Symbolic
+This classifier acts as a proxy for identifying symbolic “twin types” — reflecting the idea of proximity, likeness, and identity in nature.
 
-This project trains a k-nearest neighbors classifier (k = 3) using the iris dataset to predict flower species based on four measurements. The dataset is shuffled and split 70/30 into training and test sets, and accuracy is printed on unseen data.
+#### How to Run It
+1. Open `challenge8_knn_species.R` in RStudio
+2. Click **Source**
+3. Accuracy prints to the Console
 
-What It Does
-	•	Uses class::knn() to classify species
-	•	Shuffles data and splits into 70% training, 30% testing
-	•	Evaluates the model’s accuracy
-	•	Prints the results in a symbolic, real-world-flavored way
+---
 
-Why I Made It Symbolic
+### Challenge 9: Dimensional Alignment via PCA
 
-The model stands in as a proxy for identifying unknown “twin types” based on observed patterns — continuing the theme of proximity, symbolic identity, and hidden order in nature.
+This script performs **Principal Component Analysis (PCA)** on the `mtcars` dataset to reduce dimensionality and visualize underlying structure.
 
-How to Run It
-	1.	Open challenge8_knn_species.R in RStudio
-	2.	Click Source
-	3.	View printed accuracy in the Console
+#### What It Does
+- Loads the `mtcars` dataset
+- Applies PCA using `prcomp()`
+- Extracts and plots the first two principal components
+- Saves the PCA scatter plot as `challenge9_pca_plot.png`
 
-⸻
+#### Why I Made It Symbolic
+I see PCA like mental clarity — reducing noise to reveal structure. This is the first time I’ve seen how stats can *visually* express hidden order.
 
-Updates
-	•	April 23, 2025 – Challenge 8: Symbolic k-NN species predictor with 70/30 validation
-	•	April 23, 2025 – Challenge 7: Symbolic linear regression with horsepower as effort, mpg as endurance
-	•	April 23, 2025 – Challenge 6: Real-world pediatric percentile overlay (girls, 0–13 weeks)
-	•	April 23, 2025 – README restructured to track challenges with a narrative approach
+#### How to Run It
+1. Open `challenge9_dimensional_alignment.R` in RStudio
+2. Click **Source**
+3. View the resulting PCA plot in the **Plots** tab
 
-⸻
+---
 
-Changelog
-	•	RENAME: Renamed script files for clarity and consistency:
-	•	twin_growth_explorer.R → challenge6_twin_growth.R
-	•	predict_mpg.R → challenge7_predict_mpg.R
-	•	challenge8_knn_species_predictor.R → challenge8_knn_species.R
-	•	ADD: Challenge 8 – Symbolic k-NN predictor using iris
-	•	ADD: Challenge 7 – Symbolic MPG predictor using mtcars
-	•	FEAT: Overlay real-world pediatric head circumference data (Challenge 6)
-	•	FIX: Refactored plot logic in challenge6_twin_growth.R
-	•	INIT: Twin growth symbolic scatter plot with customized labels (Challenge 6)
+## Updates
 
-⸻
+- **Apr 23, 2025** — Challenge 9: Added PCA visualization using `mtcars` + plot export
+- **Apr 23, 2025** — Challenge 8: Symbolic k-NN predictor with 70/30 validation
+- **Apr 23, 2025** — Challenge 7: Symbolic regression with horsepower as effort, mpg as endurance
+- **Apr 23, 2025** — Challenge 6: Real-world pediatric percentile overlay (girls, 0–13 weeks)
+- **Apr 23, 2025** — README refactored to match standardized filenames
 
-Authored by: Even Richardson
-GitHub: @evenmillz
+---
+
+## 🛠Changelog
+
+- **ADD**: Challenge 9 – PCA on `mtcars`, plotted first two principal components
+- **ADD**: Challenge 8 – Symbolic k-NN predictor using `iris`
+- **ADD**: Challenge 7 – Symbolic MPG predictor using `mtcars`
+- **FEAT**: Overlay pediatric head circumference data on Challenge 6 plot
+- **FIX**: Refined scatter logic in `challenge6_twin_growth.R`
+- **RENAME**: Standardized file naming format for all challenge scripts and images
+
+---
+
+> Authored by: Even Richardson  
+> GitHub: [@evenmillz](https://github.com/evenmillz)
