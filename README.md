@@ -4,7 +4,7 @@ This repository contains my challenge submissions from my R programming track. E
 
 ---
 
-## ✅ Challenges in This Repository
+## Challenges in This Repository
 
 ### Challenge 6: Twin Growth Explorer
 
@@ -54,7 +54,19 @@ This helped me learn regression in a way that felt more meaningful and made the 
 
 ---
 
-## 🛠️ Updates
+---
+
+## Challenge 8 – k-NN Species Prediction
+
+This project trains a **k-nearest neighbors classifier (k=3)** using the `iris` dataset to predict flower species based on four measurements. The dataset is shuffled and split 70/30 into training and test sets, and accuracy is printed on unseen data.
+
+**Symbolism**: The model stands in as a proxy for identifying unknown "twin types" based on observed patterns — keeping in theme with my ongoing symbolic twin framing.
+
+**Output**:  
+The model prints classification accuracy and predicts unseen labels using R's `class::knn()` function.
+
+---
+## Updates
 
 - **April 23, 2025** – Added real-world pediatric growth comparison to Challenge 6 using percentile data (girls, 0–13 weeks)
 - **April 23, 2025** – Connected twin symbolism to fuel prediction in Challenge 7 (engine force → journey endurance)
@@ -62,14 +74,13 @@ This helped me learn regression in a way that felt more meaningful and made the 
 
 ---
 
-## 📘 Changelog
-
-- `f8f1144` – Challenge 7: Train symbolic MPG predictor using engine force  
-- `233d27d` – FEAT: overlay pediatric head circumference median data (girls, 0–13 wks)  
-- `24510bc` – FIX: corrected logic in twin_growth_explorer.R  
-- `Initial commit` – Challenge 6: Twin growth symbolic scatter plot using `iris`
+## Changelog
+- **Challenge 8 Added** – Symbolic k-NN predictor with 70/30 validation.
+– **Challenge 7: Train symbolic MPG predictor using engine force  
+- **FEAT: overlay pediatric head circumference median data (girls, 0–13 wks)  
+- **FIX: corrected logic in twin_growth_explorer.R  
+- **Challenge 6: Twin growth symbolic scatter plot using `iris`
 
 ---
-
 > Authored by: Even Richardson  
 > GitHub: [@evenmillz](https://github.com/evenmillz)
