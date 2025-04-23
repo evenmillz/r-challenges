@@ -35,8 +35,25 @@ This is Challenge 6 out of 10 in my current R module. I'm not sure if I'll be ad
 
 As a father of twin daughters, I added head circumference percentile data from a pediatric growth chart to explore symbolic comparisons between fictional twin patterns and real-world growth benchmarks.
 
+## Update: Overlaying Pediatric Growth Data
+
+In this latest update, I added a symbolic overlay using real pediatric median head circumference data for girls ages 0–13 weeks. This allows a side-by-side comparison between symbolic twin growth patterns and actual growth benchmarks used in healthcare.
+
+The added data:
+	•	Uses official percentile medians from a pediatric head circumference growth chart
+	•	Is visualized as a dotted purple reference line across the scatter plot
+	•	Helps connect the symbolic analysis to real-life metrics (especially meaningful as the father of newborn twins)
+
+This update makes the project more engaging and connects data science practice to family life in a tangible, heartfelt way.
+
 This allows you to visually contrast symbolic twin measurements against clinical norms across weeks 0–13.
 
 ## Changelog
 - **2025-04-23**: Initial README created and symbolic dataset explained.
 - **2025-04-23**: Updated README to include real-world head circumference reference data.
+- ---
+
+## Changelog
+
+- `2025-04-23` - Added symbolic overlay using pediatric head circumference data (girls, 0–13 weeks)
+- `2025-04-23` - Created initial symbolic version of twin growth explorer
