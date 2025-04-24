@@ -1,17 +1,12 @@
-![R](https://img.shields.io/badge/language-R-blue?logo=r)
-![Built with Love](https://img.shields.io/badge/Built%20with-%E2%9D%A4-red)
-
-| Challenge | Description | Script | Symbolism |
-|----------|-------------|--------|-----------|
-| 6        | Twin Growth Explorer (iris) | [`challenge6_twin_growth.R`](challenge6_twin_growth.R) | Newborn growth |
-| 7        | Predict MPG from HP (mtcars) | [`challenge7_predict_mpg.R`](challenge7_predict_mpg.R) | Effort vs endurance |
-| 8        | k-NN Species Classifier | [`challenge8_knn_species.R`](challenge8_knn_species.R) | Twin identity |
-| 9        | PCA Dimensionality Plot | [`challenge9_dimensional_alignment.R`](challenge9_dimensional_alignment.R) | Clarity from complexity |
-| 10       | Naive Bayes Classifier | [`challenge10_naive_bayes_classifier.R`](challenge10_naive_bayes_classifier.R) | Wisdom through simplicity |
-
 # R Challenge Series — Even Richardson
 
-This repository contains my submissions for 10 symbolic R programming challenges. Each script reflects real-world thinking, inner growth, and my journey into fatherhood — tying code to meaning in personal ways.
+This repository contains 5 required challenge submissions from my R programming track. Each challenge is symbolic, personal, and connects code with deeper meaning — especially during my journey into fatherhood and growth.
+
+---
+
+![R](https://img.shields.io/badge/language-R-blue?logo=r)
+![Built with Purpose](https://img.shields.io/badge/Built%20with-Meaning-%23ff69b4)
+![Challenges](https://img.shields.io/badge/Challenges-5%20of%205-green)
 
 ---
 
@@ -21,27 +16,27 @@ This repository contains my submissions for 10 symbolic R programming challenges
    `challenge6_twin_growth.R`  
    `challenge6_growth_plot.png`, `challenge6_vs_realworld_plot.png`  
 
-Symbolically maps `iris` data to newborn twin head measurements, with a pediatric reference overlay.
+Symbolic visualization of twin development using the `iris` dataset. Column names were redefined to represent head measurements, and a pediatric growth reference was overlayed for contrast.
 
-**Why symbolic?** I had just become a father of twins. This challenge helped me emotionally connect learning to real life.
+**Why symbolic?** I had just become a father of twin girls. This challenge helped ground my learning in something real.
 
 ---
 
 ### Challenge 7: Predicting MPG from Horsepower  
    `challenge7_predict_mpg.R`  
 
-Predicts `mpg` from `hp` using linear regression on `mtcars`. Horsepower = inner force, MPG = endurance.
+Linear regression using `mtcars` to predict `mpg` from `hp`. This project symbolizes the balance between inner strength (horsepower) and sustainable effort (miles per gallon).
 
-**Why symbolic?** Effort versus outcome — a metaphor for how far your inner drive can take you.
+**Why symbolic?** A reflection on how much effort it takes to move through life — and what that effort produces.
 
 ---
 
 ### Challenge 8: k-NN Species Prediction  
    `challenge8_knn_species.R`  
 
-Trains a k-nearest neighbors model (k = 3) to predict iris species. Uses 70/30 data split.
+A k-nearest neighbors (k = 3) classifier trained on the `iris` dataset. Data was split 70/30 to simulate learning on limited experience.
 
-**Why symbolic?** Each species represents a symbolic “twin type” — a study in similarity and subtle difference.
+**Why symbolic?** Each "species" is a stand-in for symbolic twin identities — subtle differences that still carry power.
 
 ---
 
@@ -49,51 +44,41 @@ Trains a k-nearest neighbors model (k = 3) to predict iris species. Uses 70/30 d
    `challenge9_dimensional_alignment.R`  
    `challenge9_pca_plot.png`  
 
-Performs PCA on `mtcars`, reduces dimensions, and visualizes vehicle relationships.
+PCA on the `mtcars` dataset to extract clarity from complexity. This challenge visualizes vehicles (and their dimensions) through their most meaningful axes.
 
-**Why symbolic?** Like life, PCA filters noise to reveal structure. A metaphor for clarity and purpose.
+**Why symbolic?** Just like in life, sometimes we need to reduce the noise and focus on what truly defines our direction.
 
 ---
 
 ### Challenge 10: Naive Bayes Symbolic Identifier  
    `challenge10_naive_bayes_classifier.R`  
 
-Uses a Naive Bayes classifier to identify iris species and predict a symbolic flower.
+Trains a Naive Bayes classifier to classify species and predict a new, symbolic flower. A final challenge centered on trusting probability over logic.
 
-**Why symbolic?** Naive Bayes represents quiet confidence — learning from patterns without needing complexity.
+**Why symbolic?** Naive Bayes models mirror the wisdom of intuition — acting on what’s most likely without overthinking.
 
 ---
 
-## How to Run
+## How to Run Any Challenge
 
 1. Open RStudio  
-2. Load any `.R` script from this repo  
-3. Click **Source**  
-4. View output in Console and plots in the **Plots** tab
-
----
-
-## Updates
-
-- **Apr 23, 2025** — Challenge 10 completed and uploaded
-- **Apr 23, 2025** — Challenge 9 PCA visualized and plotted
-- **Apr 23, 2025** — Challenge 8 added (k-NN classifier)
-- **Apr 23, 2025** — Challenge 7 regression symbolism added
-- **Apr 23, 2025** — Challenge 6 upgraded with real-world overlay
-- **Apr 23, 2025** — File naming unified across all scripts and images
+2. Make sure you’re in the `r-challenges` project folder  
+3. Open any `.R` file (e.g., `challenge9_dimensional_alignment.R`)  
+4. Click **Source**  
+5. View results in the **Console** or **Plots** tab
 
 ---
 
 ## Changelog
 
-- `challenge10_naive_bayes_classifier.R` added
-- `challenge9_dimensional_alignment.R` + PCA plot added
-- `challenge8_knn_species.R` (k = 3) finalized
-- `challenge7_predict_mpg.R` symbolic regression
-- `challenge6_twin_growth.R` overlayed with pediatric data
-- Refactored plot logic, improved readability, and standardized file names
+- `challenge10_naive_bayes_classifier.R` added — Final symbolic classifier
+- `challenge9_dimensional_alignment.R` added with PCA visualization
+- `challenge8_knn_species.R` added — identity through proximity
+- `challenge7_predict_mpg.R` added — effort vs endurance
+- `challenge6_twin_growth.R` added — symbolic growth with real-world overlay
+- Standardized file naming and formatting across all required challenges
 
 ---
 
-> Authored by: Even Richardson  
-> GitHub: [@evenmillz](https://github.com/evenmillz)
+> **Authored by:** Even Richardson  
+> 🌐 GitHub: [@evenmillz](https://github.com/evenmillz)
