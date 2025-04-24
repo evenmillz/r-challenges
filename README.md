@@ -1,6 +1,5 @@
 ![R](https://img.shields.io/badge/language-R-blue?logo=r)
 ![Built with Love](https://img.shields.io/badge/Built%20with-%E2%9D%A4-red)
-![Challenges Completed](https://img.shields.io/badge/Challenges-10%20of%2010-brightgreen)
 
 # R Challenge Series — Even Richardson
 
