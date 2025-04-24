@@ -90,6 +90,27 @@ I see PCA like mental clarity — reducing noise to reveal structure. This is th
 
 ---
 
+### Challenge 10: Naive Bayes Symbolic Identifier
+
+This script uses the `iris` dataset to train a Naive Bayes classifier — a model that classifies based on probability and trust in patterns rather than complex logic.
+
+#### What It Does
+- Loads and shuffles the iris dataset
+- Splits into training (70%) and test (30%)
+- Trains a Naive Bayes classifier using `e1071::naiveBayes`
+- Predicts species labels on test data
+- Predicts the species of a new symbolic flower
+
+#### Why I Made It Symbolic
+Naive Bayes represents the wisdom of simplicity — learning by generalizing from patterns. I treated the final prediction as a metaphor for clarity: even with limited data, insight can still bloom.
+
+#### How to Run It
+1. Open `challenge10_naive_bayes_classifier.R` in RStudio
+2. Click **Source**
+3. Read the model’s accuracy and the symbolic flower’s predicted species
+
+---
+
 ## Updates
 
 - **Apr 23, 2025** — Challenge 9: Added PCA visualization using `mtcars` + plot export
@@ -102,6 +123,7 @@ I see PCA like mental clarity — reducing noise to reveal structure. This is th
 
 ## 🛠Changelog
 
+- **ADD**: Challenge 10 – Naive Bayes symbolic classifier using iris dataset
 - **ADD**: Challenge 9 – PCA on `mtcars`, plotted first two principal components
 - **ADD**: Challenge 8 – Symbolic k-NN predictor using `iris`
 - **ADD**: Challenge 7 – Symbolic MPG predictor using `mtcars`
