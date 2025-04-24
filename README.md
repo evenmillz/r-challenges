@@ -1,6 +1,14 @@
 ![R](https://img.shields.io/badge/language-R-blue?logo=r)
 ![Built with Love](https://img.shields.io/badge/Built%20with-%E2%9D%A4-red)
 
+| Challenge | Description | Script | Symbolism |
+|----------|-------------|--------|-----------|
+| 6        | Twin Growth Explorer (iris) | [`challenge6_twin_growth.R`](challenge6_twin_growth.R) | Newborn growth |
+| 7        | Predict MPG from HP (mtcars) | [`challenge7_predict_mpg.R`](challenge7_predict_mpg.R) | Effort vs endurance |
+| 8        | k-NN Species Classifier | [`challenge8_knn_species.R`](challenge8_knn_species.R) | Twin identity |
+| 9        | PCA Dimensionality Plot | [`challenge9_dimensional_alignment.R`](challenge9_dimensional_alignment.R) | Clarity from complexity |
+| 10       | Naive Bayes Classifier | [`challenge10_naive_bayes_classifier.R`](challenge10_naive_bayes_classifier.R) | Wisdom through simplicity |
+
 # R Challenge Series — Even Richardson
 
 This repository contains my submissions for 10 symbolic R programming challenges. Each script reflects real-world thinking, inner growth, and my journey into fatherhood — tying code to meaning in personal ways.
