@@ -1,3 +1,7 @@
+![R](https://img.shields.io/badge/language-R-blue?logo=r)
+![Built with Love](https://img.shields.io/badge/Built%20with-%E2%9D%A4-red)
+![Challenges Completed](https://img.shields.io/badge/Challenges-10%20of%2010-brightgreen)
+
 # R Challenge Series — Even Richardson
 
 This repository contains my submissions for 10 symbolic R programming challenges. Each script reflects real-world thinking, inner growth, and my journey into fatherhood — tying code to meaning in personal ways.
