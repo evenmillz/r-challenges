@@ -1,12 +1,12 @@
-# ---------------------------------------------------------------
+# ------------------------------------------------------------------
 # Challenge 9: Dimensional Alignment - PCA on mtcars
-# Extracting symolic clarity from mechanical chaos
-# ---------------------------------------------------------------
+# Extracting symbolic clarity from mechanical chaos
+# ------------------------------------------------------------------
 
 # Load mtcars dataset
 data("mtcars")
 
-# Symbolism: Each car represents a lifeform - seeking direction
+# Symbolism: Each car represents a lifeform — seeking direction
 
 # Normalize features (important for PCA)
 mtcars_scaled <- scale(mtcars)
@@ -21,14 +21,14 @@ explained <- round(summary(pca_result)$importance[2, 1:2] * 100, 2)
 pc_df <- as.data.frame(pca_result$x)
 pc_df$car <- rownames(mtcars)
 
-#Plot the first two principal components
+# Plot the first two principal components
 plot(
   pc_df$PC1, pc_df$PC2,
-  pch = 21, 
+  pch = 21,
   bg = "skyblue",
-  col + "gray25",
-  xlab = past0("PC1 (", explained[1], "% of variance)"),
-  ylab = past0("PC2(", explained[2], "% of variance)"),
+  col = "gray25",
+  xlab = paste0("PC1 (", explained[1], "% of variance)"),
+  ylab = paste0("PC2 (", explained[2], "% of variance)"),
   main = "Challenge 9: Dimensional Alignment via PCA"
 )
 
