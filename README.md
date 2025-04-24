@@ -121,7 +121,7 @@ Naive Bayes represents the wisdom of simplicity — learning by generalizing fro
 
 ---
 
-## 🛠Changelog
+## Changelog
 
 - **ADD**: Challenge 10 – Naive Bayes symbolic classifier using iris dataset
 - **ADD**: Challenge 9 – PCA on `mtcars`, plotted first two principal components
