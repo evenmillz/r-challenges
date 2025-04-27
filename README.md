@@ -1,6 +1,6 @@
 # R Challenge Series — Even Richardson
 
-This repository contains 5 required challenge submissions from my R programming track. Each challenge is symbolic, personal, and connects code with deeper meaning — especially during my journey into fatherhood and growth.
+This repository contains 5 required challenge submissions from my R programming track. Each challenge is symbolic, personal, and connects code with deeper meaning, especially during my journey into fatherhood and growth.
 
 ---
 
@@ -27,7 +27,7 @@ Symbolic visualization of twin development using the `iris` dataset. Column name
 
 Linear regression using `mtcars` to predict `mpg` from `hp`. This project symbolizes the balance between inner strength (horsepower) and sustainable effort (miles per gallon).
 
-**Why symbolic?** A reflection on how much effort it takes to move through life — and what that effort produces.
+**Why symbolic?** A reflection on how much effort it takes to move through life, and what that effort produces.
 
 ---
 
@@ -36,7 +36,7 @@ Linear regression using `mtcars` to predict `mpg` from `hp`. This project symbol
 
 A k-nearest neighbors (k = 3) classifier trained on the `iris` dataset. Data was split 70/30 to simulate learning on limited experience.
 
-**Why symbolic?** Each "species" is a stand-in for symbolic twin identities — subtle differences that still carry power.
+**Why symbolic?** Each "species" is a stand-in for symbolic twin identities (i.e, subtle differences that still carry power).
 
 ---
 
@@ -55,7 +55,7 @@ PCA on the `mtcars` dataset to extract clarity from complexity. This challenge v
 
 Trains a Naive Bayes classifier to classify species and predict a new, symbolic flower. A final challenge centered on trusting probability over logic.
 
-**Why symbolic?** Naive Bayes models mirror the wisdom of intuition — acting on what’s most likely without overthinking.
+**Why symbolic?** Naive Bayes models mirror the wisdom of intuition by acting on what’s most likely without overthinking.
 
 ---
 
