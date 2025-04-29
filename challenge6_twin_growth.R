@@ -12,7 +12,7 @@ iris$Twin <- iris$Species  # Treat Species as symbolic twin identity
 cat("\n Twin Head Growth Summary:\n")
 summary(iris[, c("Head.Circumference", "Head.Width")])
 
-# Optional: View group-wise summary
+# View group-wise summary
 cat("\n Twin-Specific Summary:\n")
 print(aggregate(cbind(Head.Circumference, Head.Width) ~ Twin, data = iris, FUN = mean))
 
