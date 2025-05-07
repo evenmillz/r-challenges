@@ -1,72 +1,47 @@
-# R Challenge Series — Even Richardson
+# R Programming Portfolio — Even Richardson
 
-This repository contains five symbolic R programming challenges completed as part of my data science training. Each challenge blends programming skill with personal meaning, completed during my journey into fatherhood and deeper self-discipline.
+Welcome to my R programming portfolio. This repository documents my journey through data science, symbolic algorithm design, and applied machine learning—all rooted in meaning, growth, and real-world intent.
 
----
-
-## Table of Contents
-- [Challenges Folder](#challenges-folder)
-- [How to Run](#how-to-run)
-- [Environment](#environment)
-- [Additional Modules](#additional-modules)
-- [Changelog](#changelog)
-- [Author](#author)
+Each folder in this repo represents a focused module:
+- **challenges/** — Data science and machine learning challenges with symbolic meaning
+- **algo_data_struct/** — Hand-built algorithms and data structures in R (in progress)
+- **pluralsight_R/** — Projects from the Pluralsight R Data Science course
 
 ---
 
-## Challenges Folder
+## 🔍 Repository Structure
 
-All challenge scripts and their visual outputs are now located in the `challenges/` folder:
+### `challenges/`  
+Five symbolic challenges covering visualization, modeling, and ML using base R and tidyverse tools. Each one is infused with personal symbolism and designed to reflect growth, clarity, and identity.
 
-- `challenge6_twin_growth.R`
-- `challenge7_predict_mpg.R`
-- `challenge8_knn_species.R`
-- `challenge9_dimensional_alignment.R`
-- `challenge10_naive_bayes_classifier.R`
-- Corresponding `.png` visualization files are included
+### `algo_data_struct/` *(coming soon)*  
+Core algorithm implementations in R, including sorting, searching, tree structures, and symbolic data handling.
 
-Each challenge is built to highlight a core data science concept, while expressing a deeper symbolic connection to growth, identity, and clarity.
+### `pluralsight_R/` *(in progress)*  
+Guided course content following the full data science pipeline in R—from importing and cleaning data, to training and deploying predictive models using Shiny.
 
 ---
 
-## How to Run
+## 🛠️ Tools Used
 
-1. Open RStudio
-2. Set the working directory to the root of this project (`r-challenges`)
-3. Navigate to the `challenges/` folder
-4. Open and run any `.R` file
-5. Output appears in the Console or Plots tab
-
----
-
-## Environment
-
-- Language: R 4.5.0
-- IDE: RStudio Desktop (Windows)
-- Libraries Used: `ggplot2`, `stats`, `class`, `e1071`, and base R functions
-- Project Type: Standalone `.Rproj`
+- R 4.5.0
+- RStudio Desktop (Windows)
+- Libraries: `ggplot2`, `stats`, `class`, `e1071`, `dplyr`, and base R
+- GitHub for version control and portfolio visibility
 
 ---
 
-## Additional Modules
+## 🎯 Purpose
 
-- `pluralsight_R/` — Contains course-based modules exploring the R data science process (import → visualization → Shiny)
-
----
-
-## Changelog
-
-- All `.R` challenges and related plots moved into `challenges/`
-- Updated folder structure for clarity and maintainability
-- Nested folders and RStudio temp files removed from version control
-- `.gitignore` updated to ignore temp/project metadata
+This repo isn’t just about technical tasks—it’s about transformation. I built it while raising newborn twins, learning symbolic coding as a mental discipline, and pushing myself toward professional excellence in AI and data science.
 
 ---
 
-## Author
+## 👤 Author
 
 **Even Richardson**  
 Developer | Symbolic Thinker | Father  
-GitHub: [@evenmillz](https://github.com/evenmillz)
+GitHub: [@evenmillz](https://github.com/evenmillz)  
+Portfolio: Coming soon
 
-> "When you write code with meaning, the logic becomes truth, and the program becomes a reflection of who you are."
+> “Code isn’t just syntax—it’s structure, story, and strategy.”
