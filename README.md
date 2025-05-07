@@ -1,84 +1,110 @@
 # R Challenge Series — Even Richardson
 
-This repository contains 5 required challenge submissions from my R programming track. Each challenge is symbolic, personal, and connects code with deeper meaning, especially during my journey into fatherhood and growth.
+This repository contains five symbolic R programming challenges completed as part of my data science training. Each challenge goes beyond code—blending technical skill with meaning drawn from personal milestones, especially during my transition into fatherhood and deeper self-discipline.
 
 ---
 
-![R](https://img.shields.io/badge/language-R-blue?logo=r)
-![Built with Purpose](https://img.shields.io/badge/Built%20with-Meaning-%23ff69b4)
-![Challenges](https://img.shields.io/badge/Challenges-5%20of%205-green)
+## Table of Contents
+- [Challenges](#challenges)
+- [How to Run](#how-to-run)
+- [Environment](#environment)
+- [Additional Modules](#additional-modules)
+- [Changelog](#changelog)
+- [Author](#author)
 
 ---
 
 ## Challenges
 
 ### Challenge 6: Twin Growth Explorer  
-   `challenge6_twin_growth.R`  
-   `challenge6_growth_plot.png`, `challenge6_vs_realworld_plot.png`  
+Files:  
+`challenge6_twin_growth.R`  
+`challenge6_growth_plot.png`, `challenge6_vs_realworld_plot.png`  
 
-Symbolic visualization of twin development using the `iris` dataset. Column names were redefined to represent head measurements, and a pediatric growth reference was overlayed for contrast.
+Visualizes symbolic twin growth using the `iris` dataset and pediatric overlays.
 
-**Why symbolic?** I had just become a father of twin girls. This challenge helped ground my learning in something real.
+Why it matters: I had just become a father of twin girls. This was more than a graph—it was grounding.
 
 ---
 
 ### Challenge 7: Predicting MPG from Horsepower  
-   `challenge7_predict_mpg.R`  
+File: `challenge7_predict_mpg.R`  
 
-Linear regression using `mtcars` to predict `mpg` from `hp`. This project symbolizes the balance between inner strength (horsepower) and sustainable effort (miles per gallon).
+Simple linear regression using `mtcars`. Predicts miles per gallon from horsepower.
 
-**Why symbolic?** A reflection on how much effort it takes to move through life, and what that effort produces.
-
----
-
-### Challenge 8: k-NN Species Prediction  
-   `challenge8_knn_species.R`  
-
-A k-nearest neighbors (k = 3) classifier trained on the `iris` dataset. Data was split 70/30 to simulate learning on limited experience.
-
-**Why symbolic?** Each "species" is a stand-in for symbolic twin identities (i.e, subtle differences that still carry power).
+Why it matters: Horsepower represents our drive. MPG represents our endurance. This one taught me about balance.
 
 ---
 
-### Challenge 9: Dimensional Alignment via PCA  
-   `challenge9_dimensional_alignment.R`  
-   `challenge9_pca_plot.png`  
+### Challenge 8: k-NN Species Classifier  
+File: `challenge8_knn_species.R`  
 
-PCA on the `mtcars` dataset to extract clarity from complexity. This challenge visualizes vehicles (and their dimensions) through their most meaningful axes.
+A k-nearest neighbors model (k = 3) trained on `iris`, split into training/test sets.
 
-**Why symbolic?** Just like in life, sometimes we need to reduce the noise and focus on what truly defines our direction.
+Why it matters: A metaphor for how close proximity shapes identity, especially in early development.
+
+---
+
+### Challenge 9: Dimensional Alignment with PCA  
+Files:  
+`challenge9_dimensional_alignment.R`  
+`challenge9_pca_plot.png`  
+
+Principal Component Analysis (PCA) performed on `mtcars` to simplify noisy data into meaningful axes.
+
+Why it matters: Sometimes clarity comes not from adding more—but from reducing what's irrelevant.
 
 ---
 
 ### Challenge 10: Naive Bayes Symbolic Identifier  
-   `challenge10_naive_bayes_classifier.R`  
+File: `challenge10_naive_bayes_classifier.R`  
 
-Trains a Naive Bayes classifier to classify species and predict a new, symbolic flower. A final challenge centered on trusting probability over logic.
+Builds a Naive Bayes model to predict symbolic species.
 
-**Why symbolic?** Naive Bayes models mirror the wisdom of intuition by acting on what’s most likely without overthinking.
+Why it matters: Naive Bayes reflects real-life intuition—choosing what’s most likely with limited knowledge.
 
 ---
 
-## How to Run Any Challenge
+## How to Run
 
-1. Open RStudio  
-2. Make sure you’re in the `r-challenges` project folder  
-3. Open any `.R` file (e.g., `challenge9_dimensional_alignment.R`)  
-4. Click **Source**  
-5. View results in the **Console** or **Plots** tab
+1. Open RStudio
+2. Set the working directory to this project folder (`r-challenges`)
+3. Open any challenge `.R` script
+4. Click Source or run line by line
+5. Results appear in the Console or Plots pane
+
+---
+
+## Environment
+
+- Language: R 4.5.0
+- IDE: RStudio Desktop (Windows)
+- Libraries Used: `ggplot2`, `stats`, `class`, `e1071`, etc.
+- Project Type: Standalone `.Rproj` with optional visuals
+
+---
+
+## Additional Modules (In Progress)
+
+- `pluralsight_R/` — A course-based module exploring the full R data science process from import to Shiny deployment  
+- `algo_data_struct/` — R-based algorithms including Bubble Sort, Trees, and custom symbolic data structures (restoration underway)
 
 ---
 
 ## Changelog
 
-- `challenge10_naive_bayes_classifier.R` added — Final symbolic classifier
-- `challenge9_dimensional_alignment.R` added with PCA visualization
-- `challenge8_knn_species.R` added — identity through proximity
-- `challenge7_predict_mpg.R` added — effort vs endurance
-- `challenge6_twin_growth.R` added — symbolic growth with real-world overlay
-- Standardized file naming and formatting across all required challenges
+- Challenge 10: Naive Bayes classifier added
+- Challenge 9: PCA alignment visualization added
+- Challenge 8: k-NN symbolic classifier added
+- Challenge 7: Linear regression on `mtcars`
+- Challenge 6: Twin Growth tracker visualized
 
 ---
 
-> **Authored by:** Even Richardson  
-> 🌐 GitHub: [@evenmillz](https://github.com/evenmillz)
+## Author
+
+**Even Richardson**  
+Developer | Symbolic Thinker | Father  
+GitHub: [@evenmillz](https://github.com/evenmillz)
+
+"When you write code with meaning, the logic becomes truth, and the program becomes a reflection of who you are."
