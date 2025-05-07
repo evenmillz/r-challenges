@@ -9,7 +9,7 @@ Each folder in this repo represents a focused module:
 
 ---
 
-## 🔍 Repository Structure
+## Repository Structure
 
 ### `challenges/`  
 Five symbolic challenges covering visualization, modeling, and ML using base R and tidyverse tools. Each one is infused with personal symbolism and designed to reflect growth, clarity, and identity.
@@ -22,7 +22,7 @@ Guided course content following the full data science pipeline in R—from impor
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - R 4.5.0
 - RStudio Desktop (Windows)
@@ -31,13 +31,13 @@ Guided course content following the full data science pipeline in R—from impor
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This repo isn’t just about technical tasks—it’s about transformation. I built it while raising newborn twins, learning symbolic coding as a mental discipline, and pushing myself toward professional excellence in AI and data science.
 
 ---
 
-## 👤 Author
+## Author
 
 **Even Richardson**  
 Developer | Symbolic Thinker | Father  
