@@ -4,7 +4,7 @@ Welcome to my R programming portfolio. This repository documents my journey thro
 
 Each folder in this repo represents a focused module:
 - **challenges/** — Data science and machine learning challenges with symbolic meaning
-- **algo_data_struct/** — Hand-built algorithms and data structures in R (in progress)
+- **algo_data_struct/** — Symbolic algorithm and data structure implementations in R, now live with 3 completed challenges
 - **pluralsight_R/** — Projects from the Pluralsight R Data Science course
 
 ---
@@ -14,8 +14,8 @@ Each folder in this repo represents a focused module:
 ### `challenges/`  
 Five symbolic challenges covering visualization, modeling, and ML using base R and tidyverse tools. Each one is infused with personal symbolism and designed to reflect growth, clarity, and identity.
 
-### `algo_data_struct/` *(coming soon)*  
-Core algorithm implementations in R, including sorting, searching, tree structures, and symbolic data handling.
+### `algo_data_struct/`  
+Core algorithm implementations in R—including bubble sort, binary search trees, and structural encoding. Each script is mapped to a life lesson, turning logic into reflection. [View README »](https://github.com/evenmillz/r-challenges/tree/main/algo_data_struct)
 
 ### `pluralsight_R/` *(in progress)*  
 Guided course content following the full data science pipeline in R—from importing and cleaning data, to training and deploying predictive models using Shiny.
@@ -33,7 +33,7 @@ Guided course content following the full data science pipeline in R—from impor
 
 ## Purpose
 
-This repo isn’t just about technical tasks—it’s about transformation. I built it while raising newborn twins, learning symbolic coding as a mental discipline, and pushing myself toward professional excellence in AI and data science.
+This repo isn’t just about technical tasks, it’s about transformation. I built it while raising newborn twins, learning symbolic coding as a mental discipline, and pushing myself toward professional excellence in AI and data science.
 
 ---
 
